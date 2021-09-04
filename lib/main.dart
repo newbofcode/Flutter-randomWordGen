@@ -41,8 +41,10 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
       body: Center(
-        child:
-            Text(wordPair.asPascalCase), //every word begins with capital letter
+        child: Text(
+          wordPair.asPascalCase,
+          style: TextStyle(fontSize: 32),
+        ), //every word begins with capital letter
       ),
     );
   }
